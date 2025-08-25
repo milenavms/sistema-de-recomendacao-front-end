@@ -1,4 +1,4 @@
-# Projeto Sistema de Recomendação de Produtos
+# Projeto Sistema de Recomendação de Produtos.
 ## 📌 Sobre
 
 Aplicação desenvolvida em React para recomendar produtos de acordo com os preferências do cliente.

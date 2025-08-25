@@ -17,5 +17,5 @@ npm start
 
 ## 📸 Imagens da Tela
 
+<img width="1512" height="823" alt="Image" src="https://github.com/user-attachments/assets/efd5762c-da3c-4a40-9cbe-c00c7f6755b3" />
 
-Desenvolvido por Milena

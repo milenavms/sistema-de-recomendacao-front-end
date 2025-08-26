@@ -8,10 +8,20 @@ Aplicação desenvolvida em React para recomendar produtos de acordo com os pref
 - **Tailwind** – Estilização e layout responsivo
 
 ## 🚀 Como executar
-### front-end na porta 3000
+
+- Clone a api:
+  disponível em: https://github.com/milenavms/api-sistema-recomendacao
+  Executar na porta 3001
+
+- Execute o projeto front-end
+
+```bash
+npm install
+```
 ```bash
 npm start
 ```
+  Executar na porta 3000
 
 ### Execute o back-end na porta 3002
 

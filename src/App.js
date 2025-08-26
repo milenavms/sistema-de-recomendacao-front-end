@@ -19,7 +19,7 @@ function App() {
          <section className="bg-white p-8 rounded-lg shadow-md w-full md:w-4/5">
 
           <header className="mb-4">
-            <h1 className="text-lg font-bold  flex justify-center items-center ">
+            <h1 className="text-lg font-bold flex justify-center items-center ">
               Bem-vindo ao Recomendador de Produtos <strong className='m-1'> RD Station</strong>
             </h1>
             <h2 className="text-lg mt-4 text-justify">
@@ -29,7 +29,7 @@ function App() {
 
           <div className="bg-white grid grid-cols-1 md:grid-cols-2 gap-8">
             <section className="p-2 rounded">
-              <Form />
+              <Form setParentRecommendations={setRecommendations}/>
             </section>
 
             <section className="p-2 rounded">
@@ -38,8 +38,6 @@ function App() {
           </div>
         </section>
       </main>
-
-
     </div>
   );
 }

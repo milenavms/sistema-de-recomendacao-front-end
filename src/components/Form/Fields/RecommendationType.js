@@ -18,6 +18,7 @@ function RecommendationType({ onRecommendationTypeChange }) {
           type="radio"
           name="recommendationType"
           value="MultipleProducts"
+          defaultChecked
           onChange={() => onRecommendationTypeChange('MultipleProducts')}
           className="mr-2"
         />

@@ -1,3 +1,5 @@
+import { RecommendationTypes } from '../constants/recommendationTypes';
+
 const getRecommendations = (
   formData = { selectedPreferences: [], selectedFeatures: [] },
   products
@@ -7,7 +9,7 @@ const getRecommendations = (
   const prefSet = new Set(selectedPreferences);
   const featSet = new Set(selectedFeatures);
 
-  if (selectedRecommendationType === "SingleProduct") {
+  if (selectedRecommendationType === RecommendationTypes.SINGLE) {
     const single = products.find(product =>
       product.preferences.some(pref => prefSet.has(pref)) ||
       product.features.some(feat => featSet.has(feat))

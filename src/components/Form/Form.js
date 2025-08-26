@@ -43,7 +43,12 @@ function Form({ setParentRecommendations }) {
           handleChange('selectedRecommendationType', selected)
         }
       />
-      <SubmitButton text="Obter recomendação" />
+      <SubmitButton
+        text="Obter recomendação"
+        disabled={
+          formData.selectedPreferences.length === 0 &&
+          formData.selectedFeatures.length === 0
+        } />
     </form>
   );
 }

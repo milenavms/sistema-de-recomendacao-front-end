@@ -17,5 +17,14 @@ npm start
 
 ## 📸 Imagens da Tela
 
-<img width="1512" height="823" alt="Image" src="https://github.com/user-attachments/assets/efd5762c-da3c-4a40-9cbe-c00c7f6755b3" />
+- Tela Inicial
+<img width="1506" height="821" alt="Image" src="https://github.com/user-attachments/assets/d6225494-1cc2-4fbc-a9e8-c150fa40dc3f" />
+
+- Multiplos Produtos selecionado por padrão e Botão desabilitado inicialmente.
+<img width="582" height="157" alt="Image" src="https://github.com/user-attachments/assets/1be79ed2-3e8a-4c79-a303-d834a3cfcb67" />
+
+- Botão habilitado apos selecionar 1 item
+<img width="514" height="757" alt="Image" src="https://github.com/user-attachments/assets/6254bb65-9ba6-47f6-8c74-a3f053edbf91" />
+
+
 

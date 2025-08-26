@@ -18,6 +18,11 @@ Aplicação desenvolvida em React para recomendar produtos de acordo com os pref
 ```bash
 npm install
 ```
+
+```bash
+npm install axios
+```
+
 ```bash
 npm start
 ```
